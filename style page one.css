@@ -1,0 +1,162 @@
+h1, h3{
+    text-align: center;
+    letter-spacing: 3px;
+    color: #0b203b
+    
+    
+}
+
+p{
+    text-align: center;
+    }
+
+#underscore:hover{
+  letter-spacing: 4px;
+  transition-duration: 1s;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    max-width: 100%;
+    height:auto;
+    width: 150px;
+}
+
+
+#titleOfPage{
+  letter-spacing: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#first-album-p, #second-link, #third-link{ letter-spacing: 2px;}
+
+#link1, #link2, #link3{ display:block; text-align:center; font-size: 1em}
+
+#email:hover {
+  letter-spacing: 5px;
+  transition-duration: 2s;
+}
+
+body{
+    background-color: #bbcaca;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+/* -------------------------------------links decoration--------------------------- */
+a {
+    text-align: center;
+    color: rgb(94, 75, 57);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-align: center;
+    color: #f3ea68
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-align: center;
+    color: rgb(34, 14, 73);
+    background-color: transparent;
+    text-decoration: none;
+    /*font-weight: bold;*/
+
+    letter-spacing: 1px;
+    transition-duration: 1s;
+  }
+  
+  a:active {
+    text-align: center;
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+/* -------------------------------------------------------------------NAVIGATION BAR-------------------------------
+  /* Add a black background color to the top navigation */
+.topnav {
+  width: 100%;
+  /*background-color: rgb(53, 71, 83);*/
+  overflow: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  /*padding: 10px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-shadow: 20px, 20px, #0b203b;
+  font-size: 17px;
+  width: calc(100% / 3);
+  box-sizing: border-box;
+   /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+
+  
+  
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  border-top-right-radius: 90px;
+  background-color: rgba(92, 128, 129, 0.37);
+  
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  /*background-color: rgb(126, 163, 185);*/
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  
+}
+
+/*-----------------------------------------------------------------buttons-------------------------*/
+.fa {
+  padding: 20px;
+  font-size:55px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  border-radius: 50px;
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: rgb(28, 30, 34);
+  margin: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+
+.wrapper {
+  text-align: center;
+}
+
+
+  
